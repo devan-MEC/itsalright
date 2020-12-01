@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>issokay</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="article.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="article-figure.css">
+
+       
+
+       
+	</head>
+	<body>
+		
+	<figure  class="size-4">
+				<img  src="https://i.imgur.com/koSU1XN.png" id="imgClickAndChange" onclick="changeImage()" />
+			</figure>	
+		
+	<script >
+    function changeImage() {
+
+    	if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/koSU1XN.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://i.imgur.com/8QsMpOs.png";
+        }
+
+        else if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/8QsMpOs.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://i.imgur.com/2WV6rr5.png";
+        }
+         else if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/2WV6rr5.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://i.imgur.com/w6otijS.png";
+        }
+        else if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/w6otijS.png") 
+        {
+            document.getElementById("imgClickAndChange").src = "https://i.imgur.com/koSU1XN.png";
+        }
+        
+    }
+</script>	
+
+	</body>
+	
+</html>
